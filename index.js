@@ -64,7 +64,7 @@ tl3
 
 let tl2 = new TimelineMax();
 tl2
-  .from(block1, .5, {x: row.width-350,  ease: Linear.easeNone}, "-=.5")
+  .from(block1, .5, {x: -row.width,  ease: Linear.easeNone}, "-=.5")
 //   .to(block1, .5, {x: -row.width}, "-=.5")
 
 const scene = new ScrollMagic.Scene({
